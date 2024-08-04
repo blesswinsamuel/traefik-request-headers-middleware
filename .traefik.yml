@@ -1,9 +1,9 @@
-displayName: Demo Plugin WASM
+displayName: Traefik Request Headers Middleware
 runtime: wasm
 type: middleware
 iconPath: .assets/icon.png
 
-summary: '[Demo WASM] Add Request Header'
+summary: 'Add Request Header'
 
 testData:
   Headers:
