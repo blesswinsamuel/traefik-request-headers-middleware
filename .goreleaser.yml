@@ -1,4 +1,4 @@
-project_name: plugindemowasm
+project_name: traefik-request-headers-middleware
 
 builds:
   - binary: plugin.wasm
@@ -10,7 +10,7 @@ builds:
       - --no-debug
       - -target=wasi
     ldflags:
-      - ''
+      - ""
     goos:
       - linux
     goarch:
@@ -20,16 +20,16 @@ changelog:
   sort: asc
   filters:
     exclude:
-      - '^docs:'
-      - '^doc:'
-      - '^chore:'
-      - '^chore(deps):'
-      - '^test:'
-      - '^tests:'
+      - "^docs:"
+      - "^doc:"
+      - "^chore:"
+      - "^chore(deps):"
+      - "^test:"
+      - "^tests:"
 
 archives:
-  - id: plugindemowasm
-    name_template: '{{ .ProjectName }}_v{{ .Version }}'
+  - id: traefik-request-headers-middleware
+    name_template: "{{ .ProjectName }}_v{{ .Version }}"
     format: zip
     files:
       - LICENSE

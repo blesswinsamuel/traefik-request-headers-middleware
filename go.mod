@@ -1,4 +1,4 @@
-module github.com/traefik/plugindemowasm
+module github.com/blesswinsamuel/traefik-request-headers-middleware
 
 go 1.21
 
